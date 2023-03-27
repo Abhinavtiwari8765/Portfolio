@@ -2,109 +2,79 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-</head>
-<!--we are starting our work here-->
-<body>
-    <h1 align = "center" >"Welcome to the website" </h1>
-    <p> Lorem ipsum dolor<small>sit amet consectetur adipisicing elit. Rerum voluptatibus illum nostrum.</small>small Debitis modi dolorum beatae numquam ipsam nemo reiciendis iste <b>ut eum ex porro adipisci impedit, perferendis quos, <em>eligendi accusantium asperiores</em>em nisi.</b> Recusandae officiis nam omnis, <strong>expedita enim ratione dolorum.</strong>strong Placeat, nostrum delectus. <i>Nesciunt assumenda fugiat aliquam non</i> facilis. 10<sup>2</sup>  13<sub>6</sub></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio |Home</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <a href="#" class="btn" link><i class="fa fa-home"></i> Home</a>
+        <a href="about.html" class="btn" link><i class="fa fa-address-card"></i> About</a>
+        <a href="https://github.com/Abhinavtiwari8765" class="btn" link><i class="fa fa-github"></i> Github</a>
+        <a href="https://www.linkedin.com/in/abhinav-tiwari-90138b200?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3By%2BkXbvUQRmSrOAzPlz3JzQ%3D%3D" class="btn" link><i class="fa fa-linkedin-square"></i> Linkedin</a>
+        <a href="more.html" class="btn" link><i class="fa fa-bars"></i> More</a>
+      </nav>
+    </div>
 
-    <hr>
+    <div class="profilepic">
+      <img src="abhinav8.png" />
+    </div>
+    <div class="info">
+      <h2>Hi!<span class="wave">👋</span> I am Abhinav</h2>
+    </div>
+    <div class="about">
+      <p>I am a Coder, Web Developer, CSE undergrad and loading...</p>
+    </div>
 
-    <ol type ="a"> <b>CONTRIBUTORS</b>
-        <li> abhinav</li> 
-        <li> atul</li>
-        <li> ansh</li>
-        <li> anshika</li>
-    </ol>
-    <hr>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <ul type = "box"> <b> TECHNOLOGY</b>
-      <li> html</li>
-      <li> css</li>
-      <li> java script</li>
-      <li> react</li>
-      <li> native</li>
-    
-    
-    </ul>
-    <hr>
-
-    <b> LINKS</b> <br>
-    <a href = "https://www.google.com" target ="_blank" >Google</a><br>
-    <a href = "page2.html">Page 2</a>
-    <br>
-    <a href = "ABHINAV TIWARI_RESUME.pdf" target = "_blank"> Resume</a>
-    <hr>
-    <img src="background img.jpg" alt="This is an image" width = "700">
-    <hr>
-    <!-- here to give any image as a thumbnail to the video we use control and give poster  = "location of the image"-->
-    <video src="VID_20210309_214125(0).mp4" width ="700" controls loop muted poster ="background img.jpg"></video><br>
-
-    <!--iframe tag is use to embedd any video from other website in owr website -->
-    <iframe width="700" height="500" src="https://www.youtube.com/embed/2QR11oDukn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-    <hr>
-    <!-- tables in html-->
-    <!-- it is a collection of rows and column called cells which is used to stire the data in tabular form -->
-    <!-- we use the <table>  tag for creating a table 
-         and then use <tr> for row and <td > for column-->
-            <table>
-               <thead>
-                <tr>
-                    <th>Subject</th>
-                    <th>Practical</th>
-                    <th>Theory</th>
-                    <th>Project</th>
-                    <th>Total</th>
-                </tr>
-               </thead>
-
-               <tbody>
-                <tr>
-                    <td>English</td>
-                    <td>45</td>
-                    <td>95</td>
-                    <td>34</td>
-                    <td>200</td>
-                </tr>
-                <tr>
-                    <td>Maths</td>
-                    <td>45</td>
-                    <td>95</td>
-                    <td>34</td>
-                    <td>200</td>
-                </tr>
-                <tr>
-                    <td>Computer Science</td>
-                    <td>45</td>
-                    <td>95</td>
-                    <td>34</td>
-                    <td>200</td>
-                </tr>
-                <tr>
-                    <td>DSA</td>
-                    <td>45</td>
-                    <td>95</td>
-                    <td>34</td>
-                    <td>200</td>
-                </tr>
-
-               </tbody>
-
-
-
-
-            </table>
-
-
-
+    <a href="ABHINAV TIWARI_RESUME.pdf" class="btnx" download
+      ><i class="fa fa-download"></i> Download CV</a>
     
 
+    <div class="projects">
+      <h3>PROJECTS</h3>
+    </div>
+
+      <div class="project1">
+        <img src="face recognition.gif" >
+        <h4>Face Recognition Attendance System</h4>
+        <h6>
+          Marks the Attendance by detecting the face of a human.<br />
+          Automates the traditional attendance marking system.<br />
+          Can be used for authorised access & fraud control.
+        </h6>
+       
+        <a href="#" class="view" link><i class="fa fa-eye"></i> View Project</a>
+      </div>
+
+      <div class="project2">
+        <img src="python quiz.jpg">
+        <h4>Quizzit</h4>
+        <h6>
+          A simple Quiz game made with Tkinter.<br>
+          Player can sign up and play directly.
+        </h6>
+        <a href="#" class="view1" link><i class="fa fa-eye"></i> View Project</a>
+      </div>
+      <div class="contactinfo">
+        <a href="#" class="mail" contact> <i class="fa fa-envelope"></i> tiwariabhinav686@gmail.com</a>
+      </div>
+      <div class="contactinfo1">
+        <a href="#" class="phone" contact> <i class="fa fa-phone"></i> +91 8529746762</a>
+      </div>
+      <div class="contactinfo2">
+        <a href="https://www.google.com/maps/place/Gautam+Buddh+Nagar,+Uttar+Pradesh/@28.4063425,77.4816479,12z/data=!4m23!1m16!4m15!1m6!1m2!1s0x390cea64b8f89aef:0xec0ccabb5317962e!2sGreater+Noida,+Uttar+Pradesh!2m2!1d77.5039904!2d28.4743879!1m6!1m2!1s0x390ce4530415cd65:0xf458611206372168!2sGautam+Buddh+Nagar,+Uttar+Pradesh!2m2!1d77.6077865!2d28.338333!3e0!3m5!1s0x390ce4530415cd65:0xf458611206372168!8m2!3d28.338333!4d77.6077865!16zL20vMDdnOGI3" class="location" contact><i class="fa fa-map-marker"></i> Greater Noida</a>
+      </div>
+      
+
     
-</body>
+      </body>
 </html>
