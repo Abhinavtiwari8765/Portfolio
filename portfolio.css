@@ -1,0 +1,302 @@
+/** {
+    box-sizing: border-box;
+    
+}*/
+
+body {
+    /*margin: 0px;*/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    /*background-repeat: no-repeat;
+    background-size:cover;*/
+   /* color:silver;
+    text-align: justify;*/
+    max-width: 100%;
+    overflow-x: hidden;
+    
+
+
+}
+.profilepic img{
+    height: 800px;
+    width: 650px;
+    /*border-radius: 50%;*/
+    /*border-image: round;*/
+    margin-left: auto;
+    display: block;
+    /*border: groove;*/
+    float:right;
+    position: absolute; top: -122px; right: -8px;
+    
+    
+    
+    
+    
+    
+}
+.info h2{
+    float: left;
+    position: absolute;top: 334px;left: 80px;
+    font-size: 70px;
+    color: bisque;
+}
+.about p{
+    position: absolute;top:464px; left: -389px;
+    animation: fadeIn 5s;
+    color:bisque;
+
+}
+.about p {
+  
+    animation: fadeIn 10s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+
+p{
+    padding-left: 35%;
+    padding-right: 25%;
+    padding-top: 3%;
+    font-family:cursive;
+}
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  .btnx {
+    background-color:black;
+    border: none;
+    color:bisque;
+    padding: 12px 30px;
+    cursor: pointer;
+    ont-size: 20px;
+    text-decoration: none;
+    font-weight:550;
+    position: absolute;left: 252px; top: 587px;
+  }
+  
+  
+  .projects h3{
+    position: relative; top: 700px;
+    font-size: 37px;
+    text-align: center;
+    color: bisque;
+    border-top-style: ridge;
+    border-color: bisque;
+    
+}
+  .project1 img{
+    height: 400px;
+    width: 358px;
+    position: absolute; top: 908px; left: 80px;
+    box-shadow: 0px 0px 20px rgb(9, 199, 228);
+  }
+  .project1 h4{
+    position: relative;top: 757px; left: 738px;
+    font-size: 28px;
+    text-decoration: underline;
+    color: bisque;
+  }
+  .project1 h6{
+    position: absolute;top: 995px;left: 738px;
+    float: right;
+    font-size: 17px;
+    font-family: cursive;
+    color: bisque;
+    
+  }
+  .view{
+    text-decoration: none;
+    color: bisque;
+    font-weight: 550;
+    position: absolute;top:1146px; left: 927px;
+    
+  }
+  .project2 img{
+    height: 400px;
+    width: 358px;
+    position: absolute; top: 1354px; left: 1072px;
+    box-shadow: 0px 0px 24px rgb(9, 199, 228);
+    
+  }
+  .project2 h4{
+    position: absolute;top: 1382px;left: 461px;
+    float: left;
+    font-size: 28px;
+    text-decoration: underline;
+    color: bisque;
+  }
+  .project2 h6{
+    position: absolute;top: 1456px;left: 357px;
+    float: left;
+    font-size: 17px;
+    font-family: cursive;
+    color: bisque;
+  }
+  .view1{
+    text-decoration: none;
+    color: bisque;
+    font-weight: 550;
+    position: absolute;top: 1578px; left: 453px;
+  }
+  
+  
+
+/*header h1 {
+    text-align: center;
+    margin: 50px 580px;
+    padding: 100px 20px; 
+    size: 150px;
+    color:silver;
+  white-space: nowrap;
+  position:;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:75px;
+  font-family:cursive;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}*/
+
+/*header h1:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-50%, -50%);
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+    1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+    1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+}
+
+    
+    
+
+
+
+
+header {
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}*/
+
+nav {
+    
+    overflow: hidden;
+    position:relative;
+    top: 0;
+    width: 100%;
+   
+    
+}
+
+nav a {
+    text-decoration:solid;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color:bisque;
+    box-decoration-break: slice;
+    font-weight: bold;
+}
+
+nav a:hover{
+    transform: translateY(-10px);
+}
+
+.mail{
+    text-decoration: none;
+    color: bisque;
+}
+.contactinfo a{
+    font-size: 25px;
+    position: absolute;top: 1920px; left: 80px;
+    padding-bottom: 20px;
+}
+.phone{
+    text-decoration: none;
+    color: bisque;
+}
+.contactinfo1 a{
+    font-size: 25px;
+    position: absolute;top: 1920px; left: 1226px;
+    padding-bottom: 20px;
+    
+}
+.location{
+  text-decoration: none;
+  color: bisque
+}
+.contactinfo2 a{
+  font-size: 25px;
+  position: absolute;top: 1920px; left: 724px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+/*main {
+    background-color: rgb(241, 241, 240);
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow:0ex;
+    
+    
+    
+    
+}*/
+
