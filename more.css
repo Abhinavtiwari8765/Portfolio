@@ -1,0 +1,48 @@
+body,html{
+  background-color: rgb(126, 174, 189);
+}
+.form_heading{
+    text-align: center;
+    font-weight: bold;
+    font-family:monospace;
+    color: bisque;
+    font-size: 30px;
+    /*background-color: black;*/
+    
+    
+}
+.container{
+    text-align: center;
+    background-image: url(about\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+
+}
+.container input{
+    background-color: black;
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    margin: 3px;
+    color: bisque;
+}
+.handshake img{
+    float: right;
+    position: absolute;top: -35px; left: 1250px;
+    color:black;
+   
+    
+}
+.btn{
+    background-color:rgb(30, 110, 143);
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+}
+    
+.btn:focus{
+    background-color: rgb(59, 221, 59);
+}
+
